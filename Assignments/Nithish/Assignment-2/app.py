@@ -5,7 +5,7 @@ import re
 app = Flask(__name__)
 app.secret_key='a'
 
-conn = ibm_db.connect("DATABASE=bludb;HOSTNAME=b0aebb68-94fa-46ec-a1fc-1c999edb6187.c3n41cmd0nqnrk39u98g.databases.appdomain.cloud;PORT=31249;SECURITY=SSL;SSLServerCertificate=DigiCertGlobalRootCA.crt;UID=vjl29194;PWD=lPUoIHGoqZgeG88O;","","")
+conn = ibm_db.connect("DATABASE=bludb;HOSTNAME=9938aec0-8105-433e-8bf9-0fbb7e483086.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud;PORT=31249;SECURITY=SSL;SSLServerCertificate=DigiCertGlobalRootCA.crt;UID=vyz40124;PWD=mRuh2ynhzIYHQiXu;","","")
 
 @app.route('/')
 def home():
