@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        window.watsonAssistantChatOptions = {
+          integrationID: "1b30ea5f-e84e-4ea1-92b4-c73b68b91e30", // The ID of this integration.
+          region: "us-south", // The region your integration is hosted in.
+          serviceInstanceID: "ca1cfc0c-9550-4f88-bd8c-f5f1cd2ce705", // The ID of your service instance.
+          onLoad: function(instance) { instance.render(); }
+        };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+          document.head.appendChild(t);
+        });
+      </script>
+    <title>Document</title>
+</head>
+<body style="background-color: grey;">
+    <h2>XYZ Hospital</h2>
+    <a href="https://web-chat.global.assistant.watson.appdomain.cloud/preview.html?backgroundImageURL=https%3A%2F%2Fus-south.assistant.watson.cloud.ibm.com%2Fpublic%2Fimages%2Fupx-ca1cfc0c-9550-4f88-bd8c-f5f1cd2ce705%3A%3A1985c074-45c0-4933-8413-ca16cc58d403&integrationID=1b30ea5f-e84e-4ea1-92b4-c73b68b91e30&region=us-south&serviceInstanceID=ca1cfc0c-9550-4f88-bd8c-f5f1cd2ce705"></a>
+</body>
+</html>
